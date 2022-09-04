@@ -18,9 +18,6 @@ namespace Utility
 
             try
             {
-                //string fromDate = input["fromDate"].ToString();
-                //string toName = input["toDate"].ToString();
-                
                 var fromDate = input.FromDate;
                 var toDate = input.ToDate;
                 LambdaLogger.Log($"fromDate: {fromDate} toDate: {toDate}");
